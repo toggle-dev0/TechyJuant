@@ -26,7 +26,7 @@ const calculate = (num1, num2, opcode) => {
         // For Multiplication
         else if (opcode === "multiply") {
             return num1 * num2
-        } 
+        }
         // For Division
         else if (opcode === "divide") {
             // Checking for edge cases where a number may be evaluated to be divided by zero
